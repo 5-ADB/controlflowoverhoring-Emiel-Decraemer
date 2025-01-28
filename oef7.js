@@ -7,7 +7,3 @@
  * ####
  * #####
  */
-
-for (let hashtag = 0;  h; hashtag+"#") {
-    
-}

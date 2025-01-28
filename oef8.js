@@ -12,3 +12,11 @@
  * 4 x 10 = 40
  * 5 x 10 = 50
  */
+
+const kerngetal = 5
+let uitkomst = 0
+
+for (let keerMaal10 = 0; keerMaal10 <= kerngetal;keerMaal10++){
+    uitkomst = (keerMaal10*10)
+    console.log(`${keerMaal10} x 10 = ${uitkomst}`);
+}

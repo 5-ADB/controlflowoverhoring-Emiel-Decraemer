@@ -20,3 +20,11 @@
  * in de console krijg ik
  * 4 + 4 = 8
  */
+
+let startgetal = 3
+const eindgetal = 15
+
+do {
+    console.log(`${startgetal} + ${startgetal} = ${startgetal*2}`);
+    startgetal = startgetal*2
+} while (startgetal <= eindgetal);
