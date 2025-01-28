@@ -7,3 +7,18 @@
 
 const grondIsDroog = true;
 const geenRegenVoorspeld = true;
+
+// if (grondIsDroog == true,  geenRegenVoorspeld == true) {
+//     console.log("sproeiers aan");
+    
+// } else {
+//     console.log("sproeiers uit");
+    
+// }
+
+if (grondIsDroog == true) {
+    if (geenRegenVoorspeld == true){
+        console.log("sproeiers aan");
+    }else {console.log("sproeiers uit");}
+}else {console.log("sproeiers uit");
+}

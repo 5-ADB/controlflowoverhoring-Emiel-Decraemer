@@ -5,3 +5,9 @@
  */
 
 let kleur;
+
+if (kleur == undefined) {
+    kleur = "wit"
+    console.log(kleur);
+} else {console.log(kleur);
+}
